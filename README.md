@@ -18,4 +18,14 @@ Photoshop CC-2017.0.1.64bit https://drive.google.com/file/d/1ZfXB25wEiymtDCzKc1g
 		- ru https://itblog21.ru/jpg-gif-png-i-svg-kakoj-format-dlya-interneta-luchshe
 		- en https://blog.hubspot.com/insiders/different-types-of-image-files
 			 https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
+Современные редакторы
+	Avocode - https://avocode.com/ (сейчас не работает)
+	Inspect https://inspect.ceros.com/design-upload
+	Zeplin - https://zeplin.io/ аналог Avocode/Inspect
+		экстеншены https://extensions.zeplin.io/
+		нужно установить плагин для Photoshop (Zeplin > Adobe Photoshop Integration)
+	PSDTECH - сейчас https://figpea.com/
+	Marsy - https://www.markupeasy.ru/
+	Figma - https://www.figma.com/ предназначены для дизайнеров/верстальщиков/заказчиков
+		работает с форматом скетч не .psd (есть онлайн конвертация)
 	
