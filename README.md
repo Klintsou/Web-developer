@@ -32,5 +32,7 @@ Photoshop CC-2017.0.1.64bit https://drive.google.com/file/d/1ZfXB25wEiymtDCzKc1g
 	https://www.vectorizer.io/
 	https://convertio.co/ru/
 	https://www.online-convert.com/
+HTML справочники
+	https://webref.ru/html
 
 	
