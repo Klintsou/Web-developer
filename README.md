@@ -28,4 +28,9 @@ Photoshop CC-2017.0.1.64bit https://drive.google.com/file/d/1ZfXB25wEiymtDCzKc1g
 	Marsy - https://www.markupeasy.ru/
 	Figma - https://www.figma.com/ предназначены для дизайнеров/верстальщиков/заказчиков
 		работает с форматом скетч не .psd (есть онлайн конвертация)
+Коверторы в SVG формат (векторный)
+	https://www.vectorizer.io/
+	https://convertio.co/ru/
+	https://www.online-convert.com/
+
 	
