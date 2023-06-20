@@ -13,11 +13,22 @@
     <meta name="description" content="Это мой первый пример страницы">
     <meta name="author" content="Yury">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <!-- 4 body - контент нашего документа -->
 <body>
-    <h1>Antoine de Saint Exupéry - <br> The little prince</h1> <!-- ПРАВИЛО SEO Может быть только один на странице -->
-    <h2>TO LEON WERTH</h2>
+
+    <style>
+        @import 'css/style.css';
+    </style>
+    <!-- <style>
+        body {
+            background-color: khaki;
+        }
+    </style> -->
+
+    <h1 style="color: red;">Antoine de Saint Exupéry - <br> The little prince</h1> <!-- ПРАВИЛО SEO Может быть только один на странице -->
+    <h2 class="chapter">TO LEON WERTH</h2>
     <h3>Third</h3>
     <hr>
     <h2>SAMPLE H2</h2>
@@ -26,7 +37,7 @@
 
     <ol type="I" start="3"> <!-- ordered list -->
         <!-- <li>First</li> list items -->
-        <li>aaaaa</li>
+        <li id="first_list_item">aaaaa</li>
         <li>bbbbb</li>
         <li>ccccc</li>
         <li>ccccc</li>

@@ -1,0 +1,32 @@
+/* селектор {
+    свойство: значение;
+    свойство: значение;
+    свойство: значение;
+}
+селектор - по какому параметру обратиться к элементу документа
+    к ним могут относиться классы (class), уникальные идентификаторы, дата аттрибуты и вложенность */
+
+h2 {
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 30px;
+    text-align: center;
+}
+.chapter {
+    color:#006400;
+    text-align: left;
+    font-weight: 700;
+}
+
+#first_list_item {
+    color: yellowgreen;
+    font-style: italic;
+	/* text-decoration: underline; */
+    text-decoration: line-through;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* вложенность
+div nav {
+
+} */
