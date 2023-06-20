@@ -30,3 +30,29 @@ h2 {
 div nav {
 
 } */
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    /* padding: 20px;
+    padding-left: 50px;
+    padding-top: 30px; */
+
+    /* padding: 20px 50px; */
+    /* 20px вверх низ */
+    /* 50px лево право */
+
+    padding: 20px 50px 40px 60px;
+    /* по часовой, начиная сверху */
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    /* комбинированная настройка */
+    /* border: 3px solid black; */
+
+    margin: 40px;
+
+}

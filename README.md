@@ -45,3 +45,13 @@ CSS links and books
 	books
 		1. CSS. Карманный справочник https://ozon.by/search/?deny_category_prediction=true&from_global=true&text=CSS.+%D0%9A%D0%B0%D1%80%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9+%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA&product_id=135656602
 		2. Новая большая книга CSS https://ozon.by/search/?deny_category_prediction=true&from_global=true&text=%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F+%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0+CSS+%7C+%D0%9C%D0%B0%D0%BA%D1%84%D0%B0%D1%80%D0%BB%D0%B0%D0%BD%D0%B4+%D0%94%D1%8D%D0%B2%D0%B8%D0%B4+%D0%A1%D0%BE%D0%B9%D0%B5%D1%80&product_id=135731189
+		
+CSS block
+	Margin – допуск, запас, край
+	Border – граница
+	Padding – прокладка
+	 вида каждого элемента лево/права, вверх/низ
+	 
+	 Lorem - рыбный текст
+
+
