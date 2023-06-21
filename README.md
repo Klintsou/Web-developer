@@ -56,4 +56,8 @@ CSS block
 Console разработчика - в Google Chrome лучшее (еще Mozilla Firefox)
 	можем динамически редактировать любые теги, стили и т.д.
 	в консоле таба styles, а есть computed - можем все применные стили посмотреть и font
+Блочный CSS 
+	display https://cssreference.io/property/display/
+	position https://cssreference.io/property/position/
+	5 types: position: static, relative, absolute, fixed, inherit
 
