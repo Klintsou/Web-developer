@@ -60,4 +60,4 @@ Console разработчика - в Google Chrome лучшее (еще Mozilla
 	display https://cssreference.io/property/display/
 	position https://cssreference.io/property/position/
 	5 types: position: static, relative, absolute, fixed, inherit
-
+	vertical-align https://cssreference.io/property/vertical-align/

@@ -99,3 +99,7 @@ img {
     background-color: red;
     z-index: -1;
 }
+
+.image-float {
+    float: right;
+}
