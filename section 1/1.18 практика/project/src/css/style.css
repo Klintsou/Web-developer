@@ -5,6 +5,25 @@
     padding: 0;
 }
 
+/* подключение локально шрифтов (https://webfonts.pro/base-web-fonts/sans-serif-grotesque/815-roboto.html)*/
+ /* можно расширять семейство другими файлами и устанавливать font-weight чтобы использовать разные шрифты*/
+/* 
+@font-face {
+   
+    font-family: 'Roboto Black';
+    src: url('../fonts/Roboto-Black.ttf');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black.woff') format('woff'),
+    url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+html {
+    font-family: Lucida Console, Courier, monospace;
+}
+
 .container {
     position: relative;
     width: 1140px;

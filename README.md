@@ -83,3 +83,18 @@ Normalizing (сброс стилей) reset.css/normalize.css
 	https://necolas.github.io/normalize.css/
 	https://htmlacademy.ru/blog/html/about-normalize-css
 	resources https://cdnjs.com/libraries/normalize
+Font
+	font-family: https://developer.mozilla.org/ru/docs/Web/CSS/font-family
+		может поддерживать несколько шрифтов (по приоритету)
+	google шрифты: https://fonts.google.com/
+	скачать различные шрифты: https://webfonts.pro/
+	@font-face generator конвертация шрифтов: https://transfonter.org/
+	форматы шрифтов: https://webformyself.com/ponyatie-formatov-shriftov-i-kak-vyzhat-iz-nix-maksimum-dlya-veb/
+	3 типа подключения:
+		локальные шрифты (грузятся с локальной машины)- никогда не используется
+		удаленные подключение - к примеру google fonts
+		скачаенные шрифты
+	современные форматы WOFF, WOFF2
+	fonts подключать нужно перед использованием к примеру 
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
