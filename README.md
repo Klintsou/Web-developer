@@ -77,3 +77,9 @@ Flexbox - (современная технология) Flexbox по праву 
 	flex-direction: column; - почти никогда не используется
 	flex-direction: row; (by default)
 	Основные свойства flex-контейнера. Главная и поперечная ось.
+Normalizing (сброс стилей) reset.css/normalize.css
+	normalizing - более продвинутая библиотека
+	в bootstrap уже по дефолту есть
+	https://necolas.github.io/normalize.css/
+	https://htmlacademy.ru/blog/html/about-normalize-css
+	resources https://cdnjs.com/libraries/normalize
