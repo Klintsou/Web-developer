@@ -192,15 +192,20 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
     margin-top: 45px;
+    justify-content: space-between;
+
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
+    /* когда используется flex удаляем
+     display: inline-block; 
     vertical-align: top;
+    margin: 0 16px;
+    */
     width: 339px;
     text-align: center;
-    margin: 0 16px;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {

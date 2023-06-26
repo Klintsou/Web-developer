@@ -66,3 +66,14 @@ Console разработчика - в Google Chrome лучшее (еще Mozilla
 	https://caniuse.com/
 	http://htmlbook.ru/content/edinitsy-izmereniya
 	https://www.w3.org/Style/Examples/007/units.ru.html
+Flexbox - (современная технология) Flexbox по праву можно назвать удачной попыткой решения огромного спектра проблем при построении лейаутов в css.
+	https://web.archive.org/web/20210718095533/https://html5.by/blog/flexbox/
+	https://habr.com/ru/articles/313938/
+	
+	display: flex; (блок в котором будут элементы)
+	justify-content: space-around; - выравнивание по главное оси (row)
+	align-items: center; - выравнивание по поперечной (column)
+	flex-wrap: wrap;
+	flex-direction: column; - почти никогда не используется
+	flex-direction: row; (by default)
+	Основные свойства flex-контейнера. Главная и поперечная ось.
