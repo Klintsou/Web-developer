@@ -104,7 +104,7 @@ h2.title {
     line-height: normal;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .intensive .intensive_btn {
     /* по центру */
     margin: 73px auto 0 auto;
     display: block;
@@ -288,7 +288,7 @@ h2.title {
 .finish .finish_wrapper {
     margin-top: 41px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .finish .finish_wrapper .finish_item {
@@ -309,7 +309,7 @@ h2.title {
 }
 
 .finish .finish_wrapper .finish_description {
-    margin-top: 25px;
+    margin-top: 26px;
     text-align: center;
     color: #efefef;
     font-family: Roboto;
@@ -318,5 +318,101 @@ h2.title {
     line-height: 20px;
 }
 
+.intensive {
+    padding: 86px 0 87px 0;
+    height: 628px;
+    background-color: #efefef;
+}
 
+.intensive .intensive_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.intensive .intensive_text {
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+}
+
+.vebinar {
+    height: 516px;
+    padding: 89px 0 64px 0;
+    text-align: center;
+}
+
+.vebinar .vebinar_title_first_block {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* Text style for "П, ервый в" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.vebinar .vebinar_title_second_block {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vebinar .vebinar_title_third_block {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+    
+}
+
+.footer .footer_text_first, .footer .footer_text_second {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: underline;
+    /* Text style for "Служба под" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "|  , Позво" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
 
