@@ -1,4 +1,5 @@
 # Web-developer
+Module 1
 Обучение Web-разработчик на UDEMY от Ивана Петриченко (https://www.udemy.com/home/my-courses/learning/)
 IDE Visual Studio Code https://code.visualstudio.com/
 	plugins:
@@ -98,3 +99,9 @@ Font
 	fonts подключать нужно перед использованием к примеру 
 		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+
+Module 1
+	Библиотека Bootstrap 4
+		bootstrap на русском https://getbootstrap.ru/docs/v4-alpha/
+		документация bootstrap https://getbootstrap.com/
+		https://getbootstrap.com/docs/5.3/getting-started/introduction/
