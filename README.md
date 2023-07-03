@@ -105,3 +105,16 @@ Module 1
 		bootstrap на русском https://getbootstrap.ru/docs/v4-alpha/
 		документация bootstrap https://getbootstrap.com/
 		https://getbootstrap.com/docs/5.3/getting-started/introduction/
+	Препроцессоры SASS/SCSS/LESS
+		документация SASS на английском https://sass-lang.com/
+			на русском https://sass-scss.ru/documentation/
+		компилятор https://scout-app.io/
+		Компилятор Koala http://koala-app.com/
+		настройка плаги VSC https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md
+		LESS - программируемый язык стилей https://habr.com/ru/articles/136525/
+		
+		Plugin для VCS- Live Sass Compiler 
+			настройки плагина SASS https://github.com/glenn2223/vscode-live-sass-compiler/blob/HEAD/docs/settings.md
+		
+		SASS/SCSS/LESS - принцип одинаков (отличается к примеру синтаксис) LESS - перестал развиваться
+			
