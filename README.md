@@ -117,4 +117,6 @@ Module 1
 			настройки плагина SASS https://github.com/glenn2223/vscode-live-sass-compiler/blob/HEAD/docs/settings.md
 		
 		SASS/SCSS/LESS - принцип одинаков (отличается к примеру синтаксис) LESS - перестал развиваться
+	Вендорные префиксы в CSS - используются для разные браузеров (autoprefix)
+		https://doka.guide/css/vendor-prefixes/
 			
