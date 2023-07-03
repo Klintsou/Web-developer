@@ -2,6 +2,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Добавил наезд картинки на предыдущий блок (предпочтение первому способу) */
+/* 1 способ через position:absolute */
+/*  header {
+        position: relative;
+    }
+для .subheader
+position: absolute;
+width: 100%; */
+
+/* 2 способ через transform */
+/* .header {
+        position: relative;
+        z-index: 2;
+    }
+    .promo {
+        transform: translateY(-84px);
+        z-index: 1;
+    }
+*/
+
+
 nav {
     height: 50px;
     background-color: #212121;
@@ -28,6 +49,8 @@ nav {
 }
 
 .subheader {
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0, 0, 0, .6);
     /* прозрачность */
@@ -79,5 +102,58 @@ nav {
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/background.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 25px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
 }
 
