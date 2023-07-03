@@ -167,7 +167,7 @@ nav {
     height: 864px;
 }
 
-.reason .reason_advantages {
+.label {
     margin: 0px auto;
     width: 112px;
     height: 24px;
@@ -181,7 +181,7 @@ nav {
     text-transform: uppercase;
 }
 
-.reason .reason_header {
+.title {
     margin-top: 38px;
     color: #222222;
     font-family: Roboto;
