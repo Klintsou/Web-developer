@@ -119,4 +119,6 @@ Module 1
 		SASS/SCSS/LESS - принцип одинаков (отличается к примеру синтаксис) LESS - перестал развиваться
 	Вендорные префиксы в CSS - используются для разные браузеров (autoprefix)
 		https://doka.guide/css/vendor-prefixes/
-			
+	CSS to SASS converter
+		https://jsonformatter.org/css-to-sass
+	transform https://html5book.ru/css3-transform/
