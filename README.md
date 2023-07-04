@@ -127,7 +127,7 @@ Module 1
 		описание - https://html5book.ru/psevdoklassy/
 		transition - плавный переход https://webref.ru/css/transition
 	life style image http://htmlbook.ru/css/list-style-image
-	icons (иконочные шрифты)
+	icons (иконочные шрифты - можно генерировать иконочные шрифты, подключаем как обычный шрифт @font-family и используем код как в документации)
 		ресурс для поиска иконок https://seeklogo.com/
 		Icons https://fontawesome.com/
 		создать свой иконочный тип https://icomoon.io/app/#/select
