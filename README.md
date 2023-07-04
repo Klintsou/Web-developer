@@ -122,3 +122,8 @@ Module 1
 	CSS to SASS converter
 		https://jsonformatter.org/css-to-sass
 	transform https://html5book.ru/css3-transform/
+	Псевдоклассы и псевдоэлементы в CSS
+		документация - https://webref.ru/css#pseudo-class
+		описание - https://html5book.ru/psevdoklassy/
+		transition - плавный переход https://webref.ru/css/transition
+			
