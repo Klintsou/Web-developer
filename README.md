@@ -126,4 +126,5 @@ Module 1
 		документация - https://webref.ru/css#pseudo-class
 		описание - https://html5book.ru/psevdoklassy/
 		transition - плавный переход https://webref.ru/css/transition
+	life style image http://htmlbook.ru/css/list-style-image
 			
