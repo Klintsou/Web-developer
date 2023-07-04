@@ -132,4 +132,8 @@ Module 1
 		Icons https://fontawesome.com/
 		создать свой иконочный тип https://icomoon.io/app/#/select
 		еще иконок https://www.flaticon.com/
+	Адаптация под различные устройства
+		удобство и SEO оптимизация (чем адаптивен - тем популярен)
+		медиазапросы https://html5book.ru/css3-mediazaprosy/
+		
 			
