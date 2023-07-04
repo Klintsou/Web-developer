@@ -135,5 +135,6 @@ Module 1
 	Адаптация под различные устройства
 		удобство и SEO оптимизация (чем адаптивен - тем популярен)
 		медиазапросы https://html5book.ru/css3-mediazaprosy/
-		
+	Техника Pixel perferct - можно проверять как сайт соответствует дизайну
+		chrome plugin https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
 			
