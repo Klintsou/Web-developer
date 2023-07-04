@@ -137,6 +137,7 @@ Module 1
 		медиазапросы https://html5book.ru/css3-mediazaprosy/
 	Адаптивность bootstrap
 		https://getbootstrap.com/docs/4.3/layout/grid/
+		Вертикальное выравнивание https://getbootstrap.com/docs/4.3/layout/grid/#vertical-alignment
 	Техника Pixel perferct - можно проверять как сайт соответствует дизайну
 		chrome plugin https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
 			
