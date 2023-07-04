@@ -207,6 +207,24 @@ nav
 			// смежение на 50% от width (26/2 = 13px)
 			transform: translate(-50%) 
 			bottom: 65px
+			&:before
+				content: ''
+				display: block
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				width: 26px
+				height: 2px
+				background-color: $header_color
+			&:after
+				content: ''
+				position: absolute
+				left: 50%
+				transform: translate(-50%)
+				display: block
+				height: 26px
+				width: 2px
+				background-color: $header_color
 .uber
 	min-height: 896px
 	background: url('../img/background_4_uber.jpg') center center/cover no-repeat
