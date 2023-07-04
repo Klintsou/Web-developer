@@ -1,0 +1,153 @@
+<!-- Стандартная структура Html страницы -->
+<!-- 1 тег DOCTYPE - тип документа (делается для браузера) -->
+<!DOCTYPE html>
+<!-- 2 тег html - главный тег, описывающий весь html документ -->
+<html lang="en">
+<!-- 3 head - шапка документа (техническая информация документа) -->
+<head>
+    <!-- meta технический теги -->
+    <meta charset="UTF-8">
+    <!-- Правильно отображался на мобильных устройствах -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Это мой первый пример страницы">
+    <meta name="author" content="Yury">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<!-- 4 body - контент нашего документа -->
+<body>
+
+    <!-- <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus voluptates ducimus repellendus molestiae iste ab laudantium. Quo soluta, quaerat fugiat blanditiis iure sunt esse velit, totam, numquam corrupti facere?
+    </div> -->
+    <!-- Классов может быть несколько, через пробел -->
+    <!-- Приоритет последовательно, т.е. boxline важнее чем box -->
+    <!-- <div class="box boxline">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo iure voluptas distinctio? A consectetur quasi cum veniam maiores dolor soluta quos minima accusamus! Dolor dolores cum laborum nam similique!
+    </div> -->
+
+    <div class="example1">
+        <div class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis temporibus voluptates ducimus repellendus molestiae iste ab laudantium. Quo soluta, quaerat fugiat blanditiis iure sunt esse velit, totam, numquam corrupti facere?
+        </div>
+        <!-- Классов может быть несколько, через пробел -->
+        <!-- Приоритет последовательно, т.е. boxline важнее чем box -->
+        <div class="box red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo iure voluptas distinctio? A consectetur quasi cum veniam maiores dolor soluta quos minima accusamus! Dolor dolores cum laborum nam similique!
+        </div>
+    </div>
+
+
+
+
+
+    <style>
+        @import 'css/style.css';
+    </style>
+    <!-- <style>
+        body {
+            background-color: khaki;
+        }
+    </style> -->
+
+    <h1 style="color: red;">Antoine de Saint Exupéry - <br> The little prince</h1> <!-- ПРАВИЛО SEO Может быть только один на странице -->
+    <h2 class="chapter">TO LEON WERTH</h2>
+    <h3>Third</h3>
+    <hr>
+    <h2>SAMPLE H2</h2>
+    <hr>
+
+
+    <ol type="I" start="3"> <!-- ordered list -->
+        <!-- <li>First</li> list items -->
+        <li id="first_list_item">aaaaa</li>
+        <li>bbbbb</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+    </ol>
+    <h2>SAMPLE H3</h2>
+    <ul type="I" start="3"> <!-- unordered list -->
+        <!-- <li>First</li> list items -->
+        <li>aaaaa</li>
+        <li>bbbbb</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+        <li>ccccc</li>
+    </ul>
+    <!-- <i> italic <p> paragraph <em> emphasized text (выделенный текст) , <b> bold, <strong> bold in logical context <u> - underline <mark> - пометить (выделить желтым)-->
+    <!-- <s> - specifies text that is no longer correct -->
+    <h2>SAMPLE H4</h2>
+    <!-- <sub> tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O. -->
+    H<sub>2</sub>O
+    <!-- <sup> HTML element specifies inline text which is to be displayed as superscript for solely typographical reasons. -->
+    М<sup>2</sup>
+    <p id="test_link_id">I ask the <b>indulgence</b> of the <em>children</em> who may read this book for <strong>it</strong> it to a grown-up. I have a serious reason: he is the best friend I have in the world. I have another reason: this grown-up understands everything, even books about children.</p>
+    <p><i>ask the indulgence of the children who may read this book for dedicating it to a grown-up</i>. I have a serious reason: he is the best friend I have in the world. I have another reason: this grown-up understands everything, even books about children.</p>
+    <!-- <span> tag is an inline container used to mark up a part of a text, or a part of a document -->
+    <p><u>Даёт подсказку для создания комбинации</u> клавиш для текущего элемента. <mark>Этот атрибут содержит список разделённых пробелами символов.</mark> Браузер <span>должен</span> использовать первый имеющийся в <s>раскладке клавиатуры символ</s> из списка.</p>
+    <!-- <a href="URL">...</a>
+        <a name="идентификатор">...</a> 
+        tag defines a hyperlink, which is used to link from one page to another
+    -->
+    <a href="https://webref.ru/html">WEB Ref </a>
+    <!-- <h4>Fourth</h4>
+    <h5>Five</h5>
+    <h6>Six</h6> -->
+    <!-- Обязательно присутствие логической иерархии -->
+    <!--        h1
+            h2      h2
+        h3      h3      h3  -->
+
+
+    <!-- <div> tag defines a division or a section in an HTML document -->
+    <div>
+        
+        <!-- <img> tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages -->
+        <!-- attribute alt (alternative text) описывает что представляет из себя картинки, влияет на SEO оптимизацию страницы -->
+        <!-- локально -->
+        <img src="img/main_background_2.jpg" alt="main_background_2">
+        <!-- из интернета -->
+        
+        <!-- HTML5 semantic tags -->
+         <header></header> <!-- шапка сайта -->
+        <nav></nav> <!-- навигационное меню -->
+        <article></article > <!-- оформление записи в блоге -->
+        <section></section> <!-- секции страницы -->
+        <aside></aside> <!-- к примеру боковая колонки с информацией, которые сбоку, слева, сбрава -->
+        <main></main> <!-- главное содержимое сайта -->
+        <address></address> <!-- адрес компании/фирмы -->
+        <footer></footer> <!-- нижняя часть сайта -->
+        <wbr> <!-- перенос строки как <br>, если необходимо -->
+        <time></time> <!-- время или дата -->
+
+
+
+        
+        
+    </div>
+    <div class="example">
+        contest
+    </div>
+
+    <img class="image-float" src=https://ivanpalii.com/wp-content/uploads/2016/10/ad-goals-com.png" alt="sample_picture">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ducimus sequi eum aperiam reprehenderit? Ullam dolores fugit voluptatem, repellendus, tempora accusantium quasi reprehenderit, esse corporis voluptate in est quia natus.
+    Similique nemo quas repudiandae voluptatem amet eligendi unde, error consequatur. Illo iure natus non omnis! Natus placeat officia incidunt maiores obcaecati quam. Quidem saepe perferendis obcaecati amet iste, placeat ipsam?
+    Facere delectus dolores numquam unde sed consequuntur repellendus fugiat corrupti officia velit provident, fugit exercitationem debitis voluptates facilis deserunt molestiae ipsam commodi perferendis? Voluptatum necessitatibus suscipit at voluptate esse. Blanditiis?
+</body>
+</html>

@@ -1,0 +1,105 @@
+/* селектор {
+    свойство: значение;
+    свойство: значение;
+    свойство: значение;
+}
+селектор - по какому параметру обратиться к элементу документа
+    к ним могут относиться классы (class), уникальные идентификаторы, дата аттрибуты и вложенность */
+
+/* * - селектор всего */
+* {
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 30px;
+    text-align: center;
+}
+.chapter {
+    color:#006400;
+    text-align: left;
+    font-weight: 700;
+}
+
+#first_list_item {
+    color: yellowgreen;
+    font-style: italic;
+	/* text-decoration: underline; */
+    text-decoration: line-through;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* вложенность
+div nav {
+
+} */
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    /* padding: 20px;
+    padding-left: 50px;
+    padding-top: 30px; */
+
+    /* padding: 20px 50px; */
+    /* 20px вверх низ */
+    /* 50px лево право */
+
+    padding: 20px 50px 40px 60px;
+    /* по часовой, начиная сверху */
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    /* комбинированная настройка */
+    /* border: 3px solid black; */
+
+    margin: 40px;
+    /* размеры элемента выставляет как ширину и высоту 300 на 300 */
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: 5;
+}
+
+/* как сделать картинки по центру по горизонтали */
+img {
+    width: 300;
+    /* 0 - по вертикали, auto - по горизонтали */
+    /* по вертикали нужно по другому делать */
+    margin: 0 auto;
+    display: block;
+}
+
+.boxline {
+    /* position: static, relative, absolute, fixed, inherit */
+    position: relative;
+    left: 100px;
+    top: 10px;
+    /* bottom top left right */
+}
+
+.example {
+    height: 700px;
+    background-color:casdetblue;
+}
+
+.example {
+    position: relative;
+}
+
+.red {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: red;
+    z-index: -1;
+}
+
+.image-float {
+    float: right;
+}

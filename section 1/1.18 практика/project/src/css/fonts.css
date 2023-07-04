@@ -1,0 +1,11 @@
+/* Это только пример (не проверял) */
+@font-face {
+    /* можно расширять семейство другими файлами и устанавливать font-weight чтобы использовать разные шрифты*/
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Black.woff') format('woff'),
+    url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
