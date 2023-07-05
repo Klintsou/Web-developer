@@ -146,4 +146,13 @@ Module 1
 		как подключить http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
 	UX
 		к примеру рекомендуется удалять hover для mobile
+	Домен, Хостинг и GitHub Pages
+		Домен - https://www.udemy.com/ все что после - URL
+		Хостинг - удаленная папка с которого запускается запуска
+			есть платные и бесплатные(с ограничениями)
+		GitHub Pages - бесплатный хостинг (можно использовать как сайт портфолио)
+			1 аккаунт - 1 репозиторий
+			https://pages.github.com/
+		про разницу в доменных именах https://www.divier.ru/stati/domeny_i_domennye_imena_v_chem_raznitsa/
+		
 			
