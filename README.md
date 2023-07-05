@@ -145,5 +145,5 @@ Module 1
 		сервис favicon https://pr-cy.ru/favicon/
 		как подключить http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
 	UX
-		
+		к примеру рекомендуется удалять hover для mobile
 			
