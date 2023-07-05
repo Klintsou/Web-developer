@@ -29,6 +29,9 @@
             margin-top: 21px
             width: 100%
             height: 40px
+    .mobile
+        &_item
+            width: 250px
     .promo
         &_header
             font-size: 40px
@@ -63,6 +66,12 @@
             margin-top: 25px
         &_link
             font-size: 20px
+    .mobile
+        &_item_1 &_item_2 &_item_3 &_item_4 &_item_5 &_item_6
+            width: 200px
+    .uber
+        img 
+            width: 100%
     .hamburger
         display: block
         position: absolute
@@ -90,4 +99,30 @@
                 &:nth-child(3)
                     // 45 градусов по часовой стрелке
                     transform: translateY(3px) rotate(45deg)
-                    
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            margin-top: 10px
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+    .footer_links
+        width: 300px
+    .promo
+        &_header
+            font-style: 40px
+            line-height: 40px
+// @media (max-width: 575px)
+    // Такой же принцип и для мобильного размера
