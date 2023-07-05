@@ -141,4 +141,7 @@ Module 1
 		Вертикальное выравнивание https://getbootstrap.com/docs/4.3/layout/grid/#vertical-alignment
 	Техника Pixel perferct - можно проверять как сайт соответствует дизайну
 		chrome plugin https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
+	Локальные ссылки и favicon (для SEO оптимизации)
+		сервис favicon https://pr-cy.ru/favicon/
+		как подключить http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
 			
