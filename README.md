@@ -144,4 +144,6 @@ Module 1
 	Локальные ссылки и favicon (для SEO оптимизации)
 		сервис favicon https://pr-cy.ru/favicon/
 		как подключить http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
+	UX
+		
 			
