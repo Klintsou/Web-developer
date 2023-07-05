@@ -134,6 +134,7 @@ Module 1
 		еще иконок https://www.flaticon.com/
 	Адаптация под различные устройства
 		удобство и SEO оптимизация (чем адаптивен - тем популярен)
+			проверять как ведет себя при разных размеров (live edit в режиме разработчика в chrome)
 		медиазапросы https://html5book.ru/css3-mediazaprosy/
 	Адаптивность bootstrap
 		https://getbootstrap.com/docs/4.3/layout/grid/
