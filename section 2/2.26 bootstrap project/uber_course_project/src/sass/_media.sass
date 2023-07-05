@@ -38,3 +38,28 @@
         &_round
             width: 90px
             height: 90px
+// не 768
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        // от родителя
+        width: 50% 
+        //100% видимого пространства на устройстве
+        height: 100vh
+        padding: 20px 15px
+        //.8 - 80% прозрачности
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin-top: 25px
+        &_link
+            font-size: 20px
