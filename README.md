@@ -100,7 +100,7 @@ Font
 		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 
-Module 1
+Module 1-2
 	Библиотека Bootstrap 4
 		bootstrap на русском https://getbootstrap.ru/docs/v4-alpha/
 		документация bootstrap https://getbootstrap.com/
@@ -154,5 +154,8 @@ Module 1
 			1 аккаунт - 1 репозиторий
 			https://pages.github.com/
 		про разницу в доменных именах https://www.divier.ru/stati/domeny_i_domennye_imena_v_chem_raznitsa/
-		
+Module 3
+	GIT https://git-scm.com/
+	обучение GITу https://githowto.com/ru
+	интерактивное обучение https://learngitbranching.js.org/
 			
