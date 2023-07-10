@@ -159,4 +159,16 @@ Module 3
 		обучение GITу https://githowto.com/ru
 		интерактивное обучение https://learngitbranching.js.org/
 		git kraken https://www.gitkraken.com/
-			
+	Gulp (планировщик задач) позволяет автоматизировать процессы, к примеру sass компиляция
+		аналог build tools (ant, maven, gradle)
+		построен на java script
+		для работы, нужен node.js
+			Node.js представляет среду выполнения кода на JavaScript, которая построена на основе движка JavaScript Chrome V8, который позволяет транслировать вызовы на языке JavaScript в машинный код. 
+			Node.js прежде всего предназначен для создания серверных приложений на языке JavaScrip
+		packages
+		gulp - https://gulpjs.com/
+			gulp-sass https://www.npmjs.com/package/gulp-sass
+			browser sync https://browsersync.io/
+			gulp-autoprefixer https://www.npmjs.com/package/gulp-autoprefixer
+			gulp-clean-css https://www.npmjs.com/package/gulp-clean-css
+
