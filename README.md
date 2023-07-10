@@ -169,8 +169,11 @@ Module 3
 		gulp - https://gulpjs.com/
 			gulp-sass https://www.npmjs.com/package/gulp-sass
 			browser sync https://browsersync.io/
+				localhost:3001 настройки browser sync (полезно)
 			gulp-autoprefixer https://www.npmjs.com/package/gulp-autoprefixer
+			gulp-rename https://www.npmjs.com/package/gulp-rename
 			gulp-clean-css https://www.npmjs.com/package/gulp-clean-css
 			по настройки задач можно смотреть документацию
 				как на мавене или ант (подключение какой либо библиотеки)
+			решение проблем команды gulp (с доступом могут быть проблемы)
 
