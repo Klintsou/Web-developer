@@ -171,4 +171,6 @@ Module 3
 			browser sync https://browsersync.io/
 			gulp-autoprefixer https://www.npmjs.com/package/gulp-autoprefixer
 			gulp-clean-css https://www.npmjs.com/package/gulp-clean-css
+			по настройки задач можно смотреть документацию
+				как на мавене или ант (подключение какой либо библиотеки)
 
