@@ -156,6 +156,7 @@ Module 1-2
 		про разницу в доменных именах https://www.divier.ru/stati/domeny_i_domennye_imena_v_chem_raznitsa/
 Module 3
 	GIT https://git-scm.com/
-	обучение GITу https://githowto.com/ru
-	интерактивное обучение https://learngitbranching.js.org/
+		обучение GITу https://githowto.com/ru
+		интерактивное обучение https://learngitbranching.js.org/
+		git kraken https://www.gitkraken.com/
 			
