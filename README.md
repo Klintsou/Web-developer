@@ -180,3 +180,7 @@ Module 3
 	БЭМ методология (блок элемент модификатор)
 		https://ru.bem.info/methodology/
 		блок - может повторно использован (либо может)
+	Forms
+		https://htmlbook.ru/html/input/type
+	JavaScript
+		https://learn.javascript.ru/
