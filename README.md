@@ -192,3 +192,9 @@ Module 3
 			owl slider https://owlcarousel2.github.io/OwlCarousel2/
 			tiny slider https://github.com/ganlanyuan/tiny-slider
 			bootstrap slider https://getbootstrap.com/docs/4.3/components/carousel/
+	Табы (вкладки)
+		jQuery tabs https://denis-creative.com/jquery-tabs/
+		bootstrap tabs https://getbootstrap.com/docs/4.3/components/navs/#javascript-behavior
+		Calc() in CSS https://css-tricks.com/a-complete-guide-to-calc-in-css/
+		
+		
