@@ -196,5 +196,8 @@ Module 3
 		jQuery tabs https://denis-creative.com/jquery-tabs/
 		bootstrap tabs https://getbootstrap.com/docs/4.3/components/navs/#javascript-behavior
 		Calc() in CSS https://css-tricks.com/a-complete-guide-to-calc-in-css/
+	Maps
+		yandex constructor https://yandex.ru/map-constructor/
+		
 		
 		
