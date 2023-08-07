@@ -202,6 +202,10 @@ Module 3
 	Modal windows
 		bootrstrap - https://getbootstrap.com/docs/4.3/components/modal/
 		Magnific Popup https://dimsemenov.com/plugins/magnific-popup/documentation.html
-		
+	Form validation
+		https://jqueryvalidation.org/
+	Маски ввода https://plugins.jquery.com/maskedinput/
+		докуметация https://github.com/digitalBush/jquery.maskedinput
+			
 		
 		
