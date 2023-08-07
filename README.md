@@ -35,6 +35,7 @@ Photoshop CC-2017.0.1.64bit https://drive.google.com/file/d/1ZfXB25wEiymtDCzKc1g
 	https://www.online-convert.com/
 HTML справочники
 	https://webref.ru/html
+	спец символы https://html5book.ru/specsimvoly-html/
 CSS links and books
 	CSS colours - https://www.rapidtables.com/web/css/css-color.html
 	color converter https://colorscheme.ru/color-converter.html
@@ -198,6 +199,9 @@ Module 3
 		Calc() in CSS https://css-tricks.com/a-complete-guide-to-calc-in-css/
 	Maps
 		yandex constructor https://yandex.ru/map-constructor/
+	Modal windows
+		bootrstrap - https://getbootstrap.com/docs/4.3/components/modal/
+		Magnific Popup https://dimsemenov.com/plugins/magnific-popup/documentation.html
 		
 		
 		
