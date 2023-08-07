@@ -206,6 +206,14 @@ Module 3
 		https://jqueryvalidation.org/
 	Маски ввода https://plugins.jquery.com/maskedinput/
 		докуметация https://github.com/digitalBush/jquery.maskedinput
+	Локальные сервера
+		windows/linux https://ospanel.io/ (better for windows)
+		mac/windows https://www.mamp.info/en/windows/
+	Mail
+		php mailer documentation https://github.com/PHPMailer/PHPMailer
+		smtp конфигурация https://support.google.com/a/answer/176600?hl=ru#:~:text=%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B8%D0%BC%D1%8F%20%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B%20SMTP%20%E2%80%93%20smtp.gmail.com.,%D0%9F%D0%BE%D1%80%D1%82%2025%2C%20465%20%D0%B8%D0%BB%D0%B8%20587.
+		пароли для приложений 	https://doc.camkubik.com/ru:info:smtp_passwords
+								https://support.google.com/accounts/answer/185833?hl=en
 			
 		
 		
