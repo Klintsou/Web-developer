@@ -35,6 +35,7 @@ Photoshop CC-2017.0.1.64bit https://drive.google.com/file/d/1ZfXB25wEiymtDCzKc1g
 	https://www.online-convert.com/
 HTML справочники
 	https://webref.ru/html
+	спец символы https://html5book.ru/specsimvoly-html/
 CSS links and books
 	CSS colours - https://www.rapidtables.com/web/css/css-color.html
 	color converter https://colorscheme.ru/color-converter.html
@@ -100,7 +101,7 @@ Font
 		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 
-Module 1
+Module 1-2
 	Библиотека Bootstrap 4
 		bootstrap на русском https://getbootstrap.ru/docs/v4-alpha/
 		документация bootstrap https://getbootstrap.com/
@@ -126,4 +127,120 @@ Module 1
 		документация - https://webref.ru/css#pseudo-class
 		описание - https://html5book.ru/psevdoklassy/
 		transition - плавный переход https://webref.ru/css/transition
-			
+	life style image http://htmlbook.ru/css/list-style-image
+	icons (иконочные шрифты - можно генерировать иконочные шрифты, подключаем как обычный шрифт @font-family и используем код как в документации)
+		ресурс для поиска иконок https://seeklogo.com/
+		Icons https://fontawesome.com/
+		создать свой иконочный тип https://icomoon.io/app/#/select
+		еще иконок https://www.flaticon.com/
+	Адаптация под различные устройства
+		удобство и SEO оптимизация (чем адаптивен - тем популярен)
+			проверять как ведет себя при разных размеров (live edit в режиме разработчика в chrome)
+		медиазапросы https://html5book.ru/css3-mediazaprosy/
+	Адаптивность bootstrap
+		https://getbootstrap.com/docs/4.3/layout/grid/
+		Вертикальное выравнивание https://getbootstrap.com/docs/4.3/layout/grid/#vertical-alignment
+	Техника Pixel perferct - можно проверять как сайт соответствует дизайну
+		chrome plugin https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
+	Локальные ссылки и favicon (для SEO оптимизации)
+		сервис favicon https://pr-cy.ru/favicon/
+		как подключить http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
+	UX
+		к примеру рекомендуется удалять hover для mobile
+	Домен, Хостинг и GitHub Pages
+		Домен - https://www.udemy.com/ все что после - URL
+		Хостинг - удаленная папка с которого запускается запуска
+			есть платные и бесплатные(с ограничениями)
+		GitHub Pages - бесплатный хостинг (можно использовать как сайт портфолио)
+			1 аккаунт - 1 репозиторий
+			https://pages.github.com/
+		про разницу в доменных именах https://www.divier.ru/stati/domeny_i_domennye_imena_v_chem_raznitsa/
+Module 3
+	GIT https://git-scm.com/
+		обучение GITу https://githowto.com/ru
+		интерактивное обучение https://learngitbranching.js.org/
+		git kraken https://www.gitkraken.com/
+	Gulp (планировщик задач) позволяет автоматизировать процессы, к примеру sass компиляция
+		Скачать сборку готовую (таких сборок очень много)
+			https://github.com/andrewalexeich/gulp-scss-starter
+		аналог build tools (ant, maven, gradle)
+		построен на java script
+		для работы, нужен node.js
+			Node.js представляет среду выполнения кода на JavaScript, которая построена на основе движка JavaScript Chrome V8, который позволяет транслировать вызовы на языке JavaScript в машинный код. 
+			Node.js прежде всего предназначен для создания серверных приложений на языке JavaScrip
+		packages
+		gulp - https://gulpjs.com/
+			gulp-sass https://www.npmjs.com/package/gulp-sass
+			browser sync https://browsersync.io/
+				localhost:3001 настройки browser sync (полезно)
+			gulp-autoprefixer https://www.npmjs.com/package/gulp-autoprefixer
+			gulp-rename https://www.npmjs.com/package/gulp-rename
+			gulp-clean-css https://www.npmjs.com/package/gulp-clean-css
+			по настройки задач можно смотреть документацию
+				как на мавене или ант (подключение какой либо библиотеки)
+			решение проблем команды gulp (с доступом могут быть проблемы)
+
+	БЭМ методология (блок элемент модификатор)
+		https://ru.bem.info/methodology/
+		блок - может повторно использован (либо может)
+	Forms
+		https://htmlbook.ru/html/input/type
+	JavaScript
+		https://learn.javascript.ru/
+	Slider (Slick-слайдер)
+		slick documentation https://kenwheeler.github.io/slick/
+		jquery doc 	https://jquery.page2page.ru/index.php5/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0
+					https://page2page.lohmach.info/index.php5/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0.html
+		другие варианты
+			owl slider https://owlcarousel2.github.io/OwlCarousel2/
+			tiny slider https://github.com/ganlanyuan/tiny-slider
+			bootstrap slider https://getbootstrap.com/docs/4.3/components/carousel/
+	Табы (вкладки)
+		jQuery tabs https://denis-creative.com/jquery-tabs/
+		bootstrap tabs https://getbootstrap.com/docs/4.3/components/navs/#javascript-behavior
+		Calc() in CSS https://css-tricks.com/a-complete-guide-to-calc-in-css/
+	Maps
+		yandex constructor https://yandex.ru/map-constructor/
+	Modal windows
+		bootrstrap - https://getbootstrap.com/docs/4.3/components/modal/
+		Magnific Popup https://dimsemenov.com/plugins/magnific-popup/documentation.html
+	Form validation
+		https://jqueryvalidation.org/
+	Маски ввода https://plugins.jquery.com/maskedinput/
+		докуметация https://github.com/digitalBush/jquery.maskedinput
+	Локальные сервера
+		windows/linux https://ospanel.io/ (better for windows)
+		mac/windows https://www.mamp.info/en/windows/
+	Mail
+		php mailer documentation https://github.com/PHPMailer/PHPMailer
+		smtp конфигурация https://support.google.com/a/answer/176600?hl=ru#:~:text=%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B8%D0%BC%D1%8F%20%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B%20SMTP%20%E2%80%93%20smtp.gmail.com.,%D0%9F%D0%BE%D1%80%D1%82%2025%2C%20465%20%D0%B8%D0%BB%D0%B8%20587.
+		пароли для приложений 	https://doc.camkubik.com/ru:info:smtp_passwords
+								https://support.google.com/accounts/answer/185833?hl=en
+	Плавная прокрутка вверх (Smooth Scroll)
+		https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+	Анимация
+		https://html5book.ru/css3-animation
+		библиотеки
+			https://animate.style/
+			https://wowjs.uk/
+	Валидация сайта (проверить перед заливкой, типа как sonar check)
+		https://validator.w3.org/
+		плагин для VSC Visual Studio Code
+		https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation
+	Реальный домен/хостинг
+		SSL https://hostenko.com/wpcafe/tutorials/wordpress-ssl-https/
+		как создать subdomen https://hosting-ninja.ru/rating/linkhost/videouroki.html?video=7
+		платный хостинг https://link-host.net/hosting/
+		FTP client FileZilla https://filezilla-project.org/
+	Оптимизация (src to disc package)
+		PageSpeed Insights (скорость) https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect 
+		Сжатие картинок (к примеру удаление meta data)
+			https://imagecompressor.com/ru/
+			https://tinypng.com/
+			(автоматически)с помощью плагина сразу в коде https://www.npmjs.com/package/gulp-htmlmin
+					использлвать 7.1.0 версию    		  https://www.npmjs.com/package/gulp-imagemin/v/7.1.0
+		Платный сервис для тестирования кроссбраузерности и кроссплатформенности
+			https://www.browserstack.com/
+	
+		
+		

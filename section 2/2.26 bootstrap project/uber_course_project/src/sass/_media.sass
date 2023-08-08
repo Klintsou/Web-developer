@@ -1,0 +1,132 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reason
+        &_block
+            align-items: flex-start
+// 991px, а не 992 px потому что будет конфликтовать с boostrap adaptability https://getbootstrap.com/docs/4.3/layout/grid/
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            width: 100%
+            height: 40px
+    .mobile
+        &_item
+            width: 250px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .reason
+        &_round
+            width: 90px
+            height: 90px
+// не 768
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        // от родителя
+        width: 50% 
+        //100% видимого пространства на устройстве
+        height: 100vh
+        padding: 20px 15px
+        //.8 - 80% прозрачности
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin-top: 25px
+            width: 100% 
+            text-align: center
+            padding: 5px 0
+        &_link
+            display: block
+            font-size: 20px
+    .mobile
+        &_item_1 &_item_2 &_item_3 &_item_4 &_item_5 &_item_6
+            width: 200px
+    .uber
+        img 
+            width: 100%
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-top: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    // 45 градусов против часовой стрелке
+                        //смещение и поворот
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    // 45 градусов по часовой стрелке
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            margin-top: 10px
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+    .footer_links
+        width: 300px
+    .promo
+        &_header
+            font-style: 40px
+            line-height: 40px
+// @media (max-width: 575px)
+    // Такой же принцип и для мобильного размера
