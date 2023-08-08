@@ -225,6 +225,10 @@ Module 3
 		https://validator.w3.org/
 		плагин для VSC Visual Studio Code
 		https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation
-			
+	Реальный домен/хостинг
+		SSL https://hostenko.com/wpcafe/tutorials/wordpress-ssl-https/
+		как создать subdomen https://hosting-ninja.ru/rating/linkhost/videouroki.html?video=7
+		платный хостинг https://link-host.net/hosting/
+		FTP client FileZilla https://filezilla-project.org/
 		
 		
