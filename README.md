@@ -221,6 +221,10 @@ Module 3
 		библиотеки
 			https://animate.style/
 			https://wowjs.uk/
+	Валидация сайта (проверить перед заливкой, типа как sonar check)
+		https://validator.w3.org/
+		плагин для VSC Visual Studio Code
+		https://marketplace.visualstudio.com/items?itemName=Umoxfo.vscode-w3cvalidation
 			
 		
 		

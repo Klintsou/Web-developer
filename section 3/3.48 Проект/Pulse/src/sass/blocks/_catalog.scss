@@ -112,6 +112,7 @@
         &__wrapper {
             display: flex;
             width: calc(200% + 40px);
+            min-height: 340px;
         }
         &__content {
             width: 50%;
