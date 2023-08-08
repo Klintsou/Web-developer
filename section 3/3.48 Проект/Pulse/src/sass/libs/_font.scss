@@ -2,6 +2,8 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 500';
+	//ускорение загрузки (читай документацию)
+	font-display: swap;
 	src: url('MuseoSansCyrl-500.eot');
 	src: local('MuseoSansCyrl-500'),
 		url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
@@ -13,6 +15,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 300';
+	font-display: swap;
 	src: url('MuseoSansCyrl-300Italic.eot');
 	src: local('MuseoSansCyrl-300Italic'),
 		url('MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'),
@@ -24,6 +27,7 @@
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 500';
+	font-display: swap;
 	src: url('MuseoSansCyrl-500Italic.eot');
 	src: local('MuseoSansCyrl-500Italic'),
 		url('MuseoSansCyrl-500Italic.eot?#iefix') format('embedded-opentype'),

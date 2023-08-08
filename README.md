@@ -161,6 +161,8 @@ Module 3
 		интерактивное обучение https://learngitbranching.js.org/
 		git kraken https://www.gitkraken.com/
 	Gulp (планировщик задач) позволяет автоматизировать процессы, к примеру sass компиляция
+		Скачать сборку готовую (таких сборок очень много)
+			https://github.com/andrewalexeich/gulp-scss-starter
 		аналог build tools (ant, maven, gradle)
 		построен на java script
 		для работы, нужен node.js
@@ -230,5 +232,15 @@ Module 3
 		как создать subdomen https://hosting-ninja.ru/rating/linkhost/videouroki.html?video=7
 		платный хостинг https://link-host.net/hosting/
 		FTP client FileZilla https://filezilla-project.org/
+	Оптимизация (src to disc package)
+		PageSpeed Insights (скорость) https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect 
+		Сжатие картинок (к примеру удаление meta data)
+			https://imagecompressor.com/ru/
+			https://tinypng.com/
+			(автоматически)с помощью плагина сразу в коде https://www.npmjs.com/package/gulp-htmlmin
+					использлвать 7.1.0 версию    		  https://www.npmjs.com/package/gulp-imagemin/v/7.1.0
+		Платный сервис для тестирования кроссбраузерности и кроссплатформенности
+			https://www.browserstack.com/
+	
 		
 		
