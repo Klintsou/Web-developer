@@ -241,6 +241,11 @@ Module 3
 					использлвать 7.1.0 версию    		  https://www.npmjs.com/package/gulp-imagemin/v/7.1.0
 		Платный сервис для тестирования кроссбраузерности и кроссплатформенности
 			https://www.browserstack.com/
+Module 4
+	CSS Grid 	https://css-tricks.com/snippets/css/complete-guide-grid/#:~:text=CSS%20Grid%20Layout%20is%20the,largely%20a%201%2Ddimensional%20system.
+				https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+	поддержка в браузерах https://caniuse.com/?search=css%20grid
+	
 	
 		
 		
