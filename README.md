@@ -265,5 +265,11 @@ Module 4
 		наименование в CSS grid https://habr.com/ru/articles/478850/
 		subgrid (дочернии элементы) - наследование
 			https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Subgrid
+	Мета теги и favicon
+		Open Graph (OG теги)
+			используются для отображения ссылок 
+			https://metatags.io/
+		особые теги google https://developers.google.com/search/docs/crawling-indexing/special-tags?hl=ru&visit_id=638278826897174929-3974001044&rd=1
+		favicon generator https://www.favicon-generator.org/
 		
 		
