@@ -260,5 +260,10 @@ Module 4
 		смотри 4. (72-80) grid\CSS grid.docx
 	Вырвнивание треков
 		https://web.archive.org/web/20210718095533/https://html5.by/blog/flexbox/
+	Альтернативные grid линии
+		Словами описывать структуру сайта
+		наименование в CSS grid https://habr.com/ru/articles/478850/
+		subgrid (дочернии элементы) - наследование
+			https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Subgrid
 		
 		
