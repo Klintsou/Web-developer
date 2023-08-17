@@ -258,6 +258,7 @@ Module 4
 		grid-auto-flow https://developer.mozilla.org/ru/docs/Web/CSS/grid-auto-flow
 	Позиционирование
 		смотри 4. (72-80) grid\CSS grid.docx
-		
+	Вырвнивание треков
+		https://web.archive.org/web/20210718095533/https://html5.by/blog/flexbox/
 		
 		
