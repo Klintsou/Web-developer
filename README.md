@@ -271,5 +271,8 @@ Module 4
 			https://metatags.io/
 		особые теги google https://developers.google.com/search/docs/crawling-indexing/special-tags?hl=ru&visit_id=638278826897174929-3974001044&rd=1
 		favicon generator https://www.favicon-generator.org/
-		
+	CSS3 filter
+		https://developer.mozilla.org/ru/docs/Web/CSS/filter
+		https://html5book.ru/css3-filtry/
+	
 		
