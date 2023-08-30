@@ -1,6 +1,7 @@
 # Web-developer
 Module 1
 Обучение Web-разработчик на UDEMY от Ивана Петриченко (https://www.udemy.com/home/my-courses/learning/)
+Moodboard - https://skillbox.ru/media/design/chto_takoe_mudbordy_i_zachem_oni_dizayneru/
 IDE Visual Studio Code https://code.visualstudio.com/
 	plugins:
 		All Autocomplete
@@ -241,6 +242,88 @@ Module 3
 					использлвать 7.1.0 версию    		  https://www.npmjs.com/package/gulp-imagemin/v/7.1.0
 		Платный сервис для тестирования кроссбраузерности и кроссплатформенности
 			https://www.browserstack.com/
+Module 4
+	CSS не замена flex, а дополнительная технология шаблона
+	CSS Grid 	https://css-tricks.com/snippets/css/complete-guide-grid/#:~:text=CSS%20Grid%20Layout%20is%20the,largely%20a%201%2Ddimensional%20system.
+				https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+				поддержка в браузерах https://caniuse.com/?search=css%20grid
+	Eдиницы гибкости
+		fr - https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444
+		repeat() https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+	Явные неявные гриды
+		figma https://www.figma.com/file/nM2g64w6wGhxKH0cmtVnja/CSS-Grid-Example?type=design&node-id=0-1&mode=design
+		https://miro.medium.com/v2/resize:fit:1208/1*O8Fqyr97EneseSyhF6avYw.jpeg
+		https://miro.medium.com/v2/resize:fit:1200/1*ZeDCXsIATtIYWDibLHOjng.jpeg
+	Функция minmax() и масштабирование треков
+		minmax() https://developer.mozilla.org/en-US/docs/Web/CSS/minmax
+		auto-fill и auto-fit https://medium.com/@stasonmars/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-auto-fill-%D0%B8-auto-fit-%D0%B2-css-grid-7d903a6c678e
+		grid-auto-flow https://developer.mozilla.org/ru/docs/Web/CSS/grid-auto-flow
+	Позиционирование
+		смотри 4. (72-80) grid\CSS grid.docx
+	Вырвнивание треков
+		https://web.archive.org/web/20210718095533/https://html5.by/blog/flexbox/
+	Альтернативные grid линии
+		Словами описывать структуру сайта
+		наименование в CSS grid https://habr.com/ru/articles/478850/
+		subgrid (дочернии элементы) - наследование
+			https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Subgrid
+	Мета теги и favicon
+		Open Graph (OG теги)
+			используются для отображения ссылок 
+			https://metatags.io/
+		особые теги google https://developers.google.com/search/docs/crawling-indexing/special-tags?hl=ru&visit_id=638278826897174929-3974001044&rd=1
+		favicon generator https://www.favicon-generator.org/
+	CSS3 filter
+		https://developer.mozilla.org/ru/docs/Web/CSS/filter
+		https://html5book.ru/css3-filtry/
+	Политика конфиденциальности (формочка с cookie)
+		https://tilda.education/articles-personal-data-law
+		конструктор политики конфиденциальности https://tilda.cc/ru/privacy-generator/
+		закон cookie https://www.cookielaw.org/the-cookie-law/
+		предупредить о cookie на сайте https://netpeak.net/ru/blog/kak-gramotno-predupredit-o-sbore-cookie-na-sayte/
+	Object-fit
+		Свойство object-fit определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.
+		поддержка браузерами https://caniuse.com/?search=object-fit
+			для поддержки в старых браузерах https://github.com/fregante/object-fit-images
+	Image adaptation
+		official documentation https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+		Пример загрузка разных картинок (одна и таже картинка должна быть):
+			<img srcset="img/works/uber_min.jpg 300w,
+						 img/works/uber_mid.jpg 400w"
+				 sizes="(max-width: 576px) 280px,
+						(min-width: 577px) 400px"
+						src="img/works/uber.jpg" alt="uber">
+		Существуют также следующие тэги:
+			<picture> - можно указывать источники картинок используя аттрибуты media
+			<video>, <audio>
+		можно подгружать картинки разных форматов к примеру google webp (загружатся только в chrome)
+			<source type="image/webp" srcset...>
+		about DPR https://habr.com/ru/sandbox/128978/
+			из сайтов дизайна можно скачивать картинки с разным DPR (плотностью пикселей)
+			можно указать в srcset вместо 300w указываем 1.5x или 2x (размер DPR)
+	CSS Variables (Использование переменных в CSS)
+		находятся в DOM дереве (можно использовать при адаптации или в JavaScript)
+		https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+		пример локальной переменной:
+			можно использовать только там где обьявлена (не глобальная)
+			--text-color: blue;
+			использование
+			color: var(--text-color)
+		пример глобаальной переменной:
+			:root - приоритетней чем локальная переменная.
+			:root {
+				--text-color: blue;
+				--big-text: 20px;
+			}
+		fallback mechanism
+			var(--text-color, red)
+	Mobile first
+		Существует такой подход к разработке (мобильная разработка первична)
+			сначала верстается мобильная версия
+			Движение от общего стиля mobile -> desktop
+			Desktop first: движение от desktop -> mobile
+		Больше используется чем desktop
+		Поисковые системы ориентируются на сколько сайт адаптивен к мобильным устройствам
+
 	
-		
 		
