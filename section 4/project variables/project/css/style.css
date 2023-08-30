@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+}
+
+:root {
+    --text-color: blue;
+    --big-text: 20px;
+}
+
+.wrapper {
+    --text-color: blue;
+}
+
+.element {
+    width: 500px;
+    margin: 20px;
+    color: var(--text-color);
+}
+
+.big {
+    font-size:  var(--big-text);
+}

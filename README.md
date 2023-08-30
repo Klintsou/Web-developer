@@ -301,7 +301,22 @@ Module 4
 		about DPR https://habr.com/ru/sandbox/128978/
 			из сайтов дизайна можно скачивать картинки с разным DPR (плотностью пикселей)
 			можно указать в srcset вместо 300w указываем 1.5x или 2x (размер DPR)
-			
+	CSS Variables (Использование переменных в CSS)
+		https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+		пример локальной переменной:
+			можно использовать только там где обьявлена (не глобальная)
+			--text-color: blue;
+			использование
+			color: var(--text-color)
+		пример глобаальной переменной:
+			:root - приоритетней чем локальная переменная.
+			:root {
+				--text-color: blue;
+				--big-text: 20px;
+			}
+		fallback mechanism
+			var(--text-color, red)
+		
 
 	
 		
