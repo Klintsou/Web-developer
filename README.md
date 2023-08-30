@@ -285,6 +285,22 @@ Module 4
 		Свойство object-fit определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.
 		поддержка браузерами https://caniuse.com/?search=object-fit
 			для поддержки в старых браузерах https://github.com/fregante/object-fit-images
+	Image adaptation
+		official documentation https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+		Пример загрузка разных картинок (одна и таже картинка должна быть):
+			<img srcset="img/works/uber_min.jpg 300w,
+						 img/works/uber_mid.jpg 400w"
+				 sizes="(max-width: 576px) 280px,
+						(min-width: 577px) 400px"
+						src="img/works/uber.jpg" alt="uber">
+		Существуют также следующие тэги:
+			<picture> - можно указывать источники картинок используя аттрибуты media
+			<video>, <audio>
+		можно подгружать картинки разных форматов к примеру google webp (загружатся только в chrome)
+			<source type="image/webp" srcset...>
+		about DPR https://habr.com/ru/sandbox/128978/
+			из сайтов дизайна можно скачивать картинки с разным DPR (плотностью пикселей)
+			можно указать в srcset вместо 300w указываем 1.5x или 2x (размер DPR)
 			
 
 	
