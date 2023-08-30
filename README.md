@@ -1,6 +1,7 @@
 # Web-developer
 Module 1
 Обучение Web-разработчик на UDEMY от Ивана Петриченко (https://www.udemy.com/home/my-courses/learning/)
+Moodboard - https://skillbox.ru/media/design/chto_takoe_mudbordy_i_zachem_oni_dizayneru/
 IDE Visual Studio Code https://code.visualstudio.com/
 	plugins:
 		All Autocomplete
