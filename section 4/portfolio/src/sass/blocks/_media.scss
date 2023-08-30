@@ -165,6 +165,13 @@
     .portfolio {
         padding-top: 40px;
     }
+    .price {
+        padding-top: 40px;
+        &__wrapper {
+            margin-top: 20px;
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -215,6 +222,11 @@
         }
         &__ratings {
             grid-template-columns: repeat(auto-fit,300px);
+        }
+    }
+    .price {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 295px);
         }
     }
 }
