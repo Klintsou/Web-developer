@@ -275,5 +275,10 @@ Module 4
 	CSS3 filter
 		https://developer.mozilla.org/ru/docs/Web/CSS/filter
 		https://html5book.ru/css3-filtry/
+	Политика конфиденциальности (формочка с cookie)
+		https://tilda.education/articles-personal-data-law
+		конструктор политики конфиденциальности https://tilda.cc/ru/privacy-generator/
+		закон cookie https://www.cookielaw.org/the-cookie-law/
+		предупредить о cookie на сайте https://netpeak.net/ru/blog/kak-gramotno-predupredit-o-sbore-cookie-na-sayte/
 	
 		
