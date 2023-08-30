@@ -243,6 +243,7 @@ Module 3
 		Платный сервис для тестирования кроссбраузерности и кроссплатформенности
 			https://www.browserstack.com/
 Module 4
+	CSS не замена flex, а дополнительная технология шаблона
 	CSS Grid 	https://css-tricks.com/snippets/css/complete-guide-grid/#:~:text=CSS%20Grid%20Layout%20is%20the,largely%20a%201%2Ddimensional%20system.
 				https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
 				поддержка в браузерах https://caniuse.com/?search=css%20grid
@@ -280,5 +281,11 @@ Module 4
 		конструктор политики конфиденциальности https://tilda.cc/ru/privacy-generator/
 		закон cookie https://www.cookielaw.org/the-cookie-law/
 		предупредить о cookie на сайте https://netpeak.net/ru/blog/kak-gramotno-predupredit-o-sbore-cookie-na-sayte/
+	Object-fit
+		Свойство object-fit определяет, как содержимое заменяемого элемента, такого как <img> или <video>, должно заполнять контейнер относительно его высоты и ширины.
+		поддержка браузерами https://caniuse.com/?search=object-fit
+			для поддержки в старых браузерах https://github.com/fregante/object-fit-images
+			
+
 	
 		
