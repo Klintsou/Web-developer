@@ -26,3 +26,11 @@ h1 {
 .big {
     font-size:  var(--big-text);
 }
+
+@media (max-width: 600px) {
+    :root {
+        --text-color: red;
+        --big-text: 30px;
+    }
+    
+}
